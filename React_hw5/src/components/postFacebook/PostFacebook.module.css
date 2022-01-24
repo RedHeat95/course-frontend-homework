@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.boxPost {
+    display: flex;
+    margin: 1rem 0 0 1rem;
+    width: 25rem;
+    border: 2px solid #808080;
+
+}
+
+.boxImg,
+.boxText {
+    padding: 1rem;
+}
+
+.img {
+    width: 5rem;
+}
+
+.user {
+    display: flex;
+    padding-bottom: 3px;
+} 
+
+.name {
+    padding-right: 0.5rem;
+    color: blue;
+}
+
+.userText {
+    padding-bottom: 0.5rem;
+}
+
+.action {
+    display: flex;
+}
+
+.name:after {
+    content: ' ●';
+    color: #808080;
+}
