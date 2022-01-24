@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    margin: 1rem 0 0 1rem;
+    max-width: 20rem;
+    border: 2px solid #808080;
+    border-radius: 5px;
+}
+
+.info {
+    padding: 0.5rem;
+}
+
+.imgMain {
+    max-width: 18rem;
+   
+    padding: 0.5rem;
+}
+
+.rezult {
+    display: flex;
+    justify-content: space-between;
+}
+
+.likes {
+    display: flex;
+}
+
+.chat {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+.commmet {
+    display: flex;
+    align-items: baseline;
+}
+
+.imgLike,
+.imgChat,
+.imgFull {
+    width: 1rem;
+    height: 1rem;
+    padding: 0 0.5rem 0 0;
+
+}
