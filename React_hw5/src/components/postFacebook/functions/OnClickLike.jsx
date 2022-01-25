@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { ButtonLike } from "../button/Button";
+import { ButtonLike } from "../Button/Button";
 
 export const OnClickLike = () => {
   const [text] = useState(0);

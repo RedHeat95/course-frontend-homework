@@ -1,6 +1,6 @@
 import styles from "./PostFacebook.module.css"
-import { OnClickLike } from "./functions/OnClickLike";
-import { OnClickReply } from "./functions/OnClickReply";
+import { OnClickLike } from "./Functions/OnClickLike";
+import { OnClickReply } from "./Functions/OnClickReply";
 
 export function PostFacebook({ name, postDescription, location, timeText }) {
     return (

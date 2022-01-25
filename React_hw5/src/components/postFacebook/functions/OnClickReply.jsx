@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { ButtonReply } from "../button/Button";
+import { ButtonReply } from "../Button/Button";
 
 export const OnClickReply = () => {
   const [text] = useState(0);

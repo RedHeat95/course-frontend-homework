@@ -1,8 +1,8 @@
 import './App.css';
 
-import { PostList } from "./components/post/postList/PostList";
-import { PostFacebookList } from "./components/postFacebook/postFacebookList/PostFacebookList";
-import { BannerList } from "./components/banner/bannerList/BannerList";
+import { PostList } from "./components/Post/PostList/PostList";
+import { PostFacebookList } from "./components/PostFacebook/PostFacebookList/PostFacebookList";
+import { BannerList } from "./components/Banner/BannerList/BannerList";
 
 function App() {
   return (

@@ -1,5 +1,5 @@
 import styles from "./Banner.module.css";
-import { OnClick } from "./functions/OnClick";
+import { OnClick } from "./Functions/OnClick";
 
 export function Banner({ title, backgroundImageUrl, commentCount }) {
   return (
