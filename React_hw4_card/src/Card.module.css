@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.h5 {
+    align-items: center;
+    padding: 0 0 0 1rem;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;    
+}
+
+.cardBody {
+    max-width: 15rem;
+    background-color: #282e33;    
+}
+
+.cardHeader {
+    background-color:#009687;
+}
+
+.imgAva {
+    margin: 1.5rem 0 0.5rem 1.5rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50px;
+}
+
+.cardMain {
+    padding-top: 0.5rem;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem 0 0.5rem 1.5rem;
+    width: 1.5rem;
+    border-radius: 50px;
+}
