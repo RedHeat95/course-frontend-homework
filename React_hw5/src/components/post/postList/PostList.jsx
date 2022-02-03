@@ -1,4 +1,4 @@
-import { Post } from "../Post";
+import { Post } from "../Post/Post";
 import { posts } from "./constants";
 
 export const PostList = () => {

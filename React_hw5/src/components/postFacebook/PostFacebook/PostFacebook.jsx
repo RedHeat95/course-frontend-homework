@@ -1,8 +1,7 @@
 import styles from "./PostFacebook.module.css"
-import { OnClickLike } from "./Functions/OnClickLike";
-import { OnClickReply } from "./Functions/OnClickReply";
+import { ButtonLike, ButtonReply } from "../Button/Button";
 
-export function PostFacebook({ name, postDescription, location, timeText }) {
+export function PostFacebook({ name, postDescription, location, timeText, onClickLike, onClickReply }) {
     return (
         <div className={styles.boxPost}>
             <div className={styles.boxImg}>
@@ -16,8 +15,8 @@ export function PostFacebook({ name, postDescription, location, timeText }) {
                 </div>
                 <p className={styles.userText}>{postDescription}</p>
                 <div className={styles.action}>
-                    <OnClickLike />
-                    <OnClickReply />
+                    <ButtonLike onClick={onClickLike} />
+                    <ButtonReply onClick={onClickReply} />
                     <p>{timeText}</p>
                 </div>
             </div>

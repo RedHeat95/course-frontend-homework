@@ -1,17 +1,17 @@
 import styles from "./Button.module.css";
 
-export function ButtonLike({ text, onClick }) {
+export function ButtonLike({ onClick }) {
   return (
     <div>
-      <button className={styles.btnLike} onClick={onClick}>{text}</button>
+      <button className={styles.btnLike} onClick={onClick}>Like</button>
     </div>
   );
 }
 
-export function ButtonReply({ text, onClick }) {
+export function ButtonReply({ onClick }) {
   return (
     <div>
-      <button className={styles.btnReply} onClick={onClick}>{text}</button>
+      <button className={styles.btnReply} onClick={onClick}>Reply</button>
     </div>
   );
 }
