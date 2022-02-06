@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+.btnLike,
+.btnReply {
+    border: none;
+    background: none;
+    color: blue;
+    padding-right: 0.5rem;
+}
+
+.btnLike:after,
+.btnReply:after {
+    content: ' ●';
+    color: #808080;
+}
