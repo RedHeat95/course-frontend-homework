@@ -1,22 +1,28 @@
 import { useState } from "react";
 import styles from "./Converter.module.css";
 
-
 export const Converter = () => {
-    const [count, setCount] = useState(0);
+  const [valueUSD, setValueUSD] = useState("");
+  const [valueBIN, setValueBIN] = useState("");
+  const currency = 2.6;
 
-    const curs = 2;
+  const onChangeUSD = (e) => {
+    setValueUSD(e.target.value);
+    setValueBIN((e.target.value * currency).toFixed(2));
+  };
 
-    const Counter = (e) => {
-        setCount(e.target.value * curs);   
-    }
+  const onChangeBIN = (e) => {
+    setValueBIN(e.target.value);
+    setValueUSD((e.target.value / currency).toFixed(2));
+  };
 
-    return(
-        <div>
-            <h1>USD</h1>
-            <input value={count} onChange={Counter} />
-            <h1>BYN</h1>
-            <input value={count} onChange={Counter} />
-        </div>
-    );
-}
+  return (
+    <div className={styles.wrraper}>
+      <h1>Live currency converter</h1>
+      <h3>Enter currency in USD:</h3>
+      <input type="text" value={valueUSD} onChange={onChangeUSD} />
+      <h3>Enter currency in BYN:</h3>
+      <input type="text" value={valueBIN} onChange={onChangeBIN} />
+    </div>
+  );
+};
