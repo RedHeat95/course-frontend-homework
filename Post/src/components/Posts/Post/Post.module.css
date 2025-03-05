@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 1rem;
+  width: 15rem;
+  border: 2px solid #808080;
+  border-radius: 1rem;
+}
+.title,
+.text {
+  padding: 1rem;
+  text-align: center;
+}
+
+.signature {
+  border-top: 2px solid #808080;
+  border-radius: 0 0 1rem 1rem;
+  padding: 1rem 3rem;
+  background-color: #e7e7e7;
+  text-align: center;
+}

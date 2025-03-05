@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrraper {
+  display: flex;
+  flex-direction: column;
+  max-width: 1050px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.postsList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btnShow {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}

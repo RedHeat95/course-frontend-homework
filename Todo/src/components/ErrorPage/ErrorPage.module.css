@@ -1,0 +1,10 @@
+.errorPage {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  padding: 1rem;
+}
+
+.error {
+  font-size: 2rem;
+}

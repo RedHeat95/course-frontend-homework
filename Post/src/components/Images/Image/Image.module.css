@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 1rem;
+  width: 15rem;
+  border: 2px solid #808080;
+  border-radius: 1rem;
+}
+
+.img {
+  cursor: pointer;
+  border-radius: 1rem;
+  transition: all 0.5s ease;
+}
+
+.imgBig {
+  cursor: pointer;
+  border-radius: 1rem;
+  transform: scale(2);
+  transition: all 0.5s ease;
+}
+
+.title {
+  padding: 1rem;
+  text-align: center;
+}

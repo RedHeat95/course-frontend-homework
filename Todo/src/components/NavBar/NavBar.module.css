@@ -1,0 +1,30 @@
+.navbar {
+  padding-bottom: 0.5rem;
+}
+
+.navbarMenu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pageName {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.exit {
+  margin-left: 1rem;
+}
+
+.exit {
+  width: 1rem;
+}
+
+.imgSettings {
+  max-width: 2rem;
+  border-radius: 50px;
+  cursor: pointer;
+}

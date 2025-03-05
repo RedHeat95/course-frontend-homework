@@ -1,0 +1,60 @@
+.add {
+  margin-top: 3rem;
+}
+
+.addFront {
+  color: #767676;
+  opacity: 0.8;
+}
+
+.addFront:hover {
+  opacity: 1;
+}
+
+.addWindow {
+  position: relative;
+  max-width: 20rem;
+  width: 100%;
+  margin-top: 1rem;
+  padding: 1rem;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+
+.imgClose {
+  position: absolute;
+  right: -3px;
+  top: -3px;
+  cursor: pointer;
+}
+
+.addInput {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  background: #ffffff;
+  border: 1px solid #efefef;
+  border-radius: 4px;
+}
+
+.addInput:focus {
+  border-color: #bdbdbd;
+}
+
+.addBtn {
+  padding: 0.5rem 1rem;
+  width: 100%;
+  background: #4dd599;
+  color: #ffffff;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.addBtn:hover {
+  background: #48c58f;
+}
+
+.addBtn:active {
+  background: #45c08b;
+}

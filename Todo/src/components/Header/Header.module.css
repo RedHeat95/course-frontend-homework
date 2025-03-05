@@ -1,0 +1,21 @@
+.header {
+  position: sticky;
+  top: 0;
+}
+
+.headerMenu {
+  display: flex;
+  align-items: center;
+}
+
+.userData {
+  display: flex;
+  align-items: center;
+}
+
+.userAvatar {
+  margin: 0 2rem;
+  max-width: 2rem;
+  border-radius: 50px;
+  background-color: #ffffff;
+}

@@ -1,0 +1,28 @@
+.todoItem {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+
+.todoItem:hover {
+  background: rgba(155, 155, 155, 0.5);
+  border-radius: 4px;
+}
+
+.todoItemText {
+  flex: 1;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: grab;
+}
+
+.todoItemImgRemove {
+  width: 1rem;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.todoItem:hover > .todoItemImgRemove {
+  opacity: 0.3;
+}

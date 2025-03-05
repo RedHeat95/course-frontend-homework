@@ -1,0 +1,27 @@
+.todo {
+  display: flex;
+  flex: 1;
+}
+
+.todoWrraper {
+  display: flex;
+  flex-direction: column;
+  width: 15rem;
+  padding: 3rem 1rem 0 2rem;
+  border-right: 1px solid #f1f1f1;
+}
+
+.todoAll {
+  margin-bottom: 2rem;
+}
+
+.todoTasks {
+  flex: 1;
+  padding: 3rem 3rem 0;
+}
+
+.textEmpty {
+  text-align: center;
+  padding-top: 1rem;
+  opacity: 0.3;
+}

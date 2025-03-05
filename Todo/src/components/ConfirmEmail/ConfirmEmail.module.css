@@ -1,0 +1,11 @@
+.confirm {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  padding-top: 1rem;
+}
+
+.confirmEmail {
+  text-align: center;
+  font-size: 2rem;
+}

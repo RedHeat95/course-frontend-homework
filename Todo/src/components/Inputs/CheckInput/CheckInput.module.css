@@ -1,0 +1,33 @@
+.checkbox {
+  display: flex;
+  margin-right: 1rem;
+}
+
+.input {
+  display: none;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  width: 20px;
+  border: 2px solid #e8e8e8;
+  border-radius: 30px;
+}
+
+.labelActive {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  width: 20px;
+  background-color: #4dd599;
+  border: 2px solid #4dd599;
+  border-radius: 30px;
+}
+
+.label:hover {
+  background-color: #f2f2f2;
+}
