@@ -1,2 +1,1 @@
-# JS-Pro-course
-## Шундрик Александр Сергеевич
+# Course Frontend Homework
